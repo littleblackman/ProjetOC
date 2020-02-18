@@ -147,8 +147,41 @@ aside p
 }
 
 
+@media all and (max-width: 1024px)
+{
+	.page
+	{
+		width: auto;
+	}
 
+	.entete
+	{
+		height: auto;
+		text-align: center;
+	}
 
+	section
+	{
+		flex-direction: column;
+	}
+
+	.date
+	{
+		width: 150px;
+	}
+
+	aside
+	{
+		width: auto;
+		flex-direction: row;
+	}
+
+	.photo
+	{
+		position: absolute;
+		top: 10px;
+	}
+}
 
 
 
