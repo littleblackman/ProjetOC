@@ -1,0 +1,169 @@
+.page
+{
+	width: 600px;
+	margin: auto;
+	border: 2px grey solid;
+	font-family: "trebuchet ms","Arial", sans-serif;
+}
+
+body
+{
+	font-size: 0.6em;
+}
+
+h1
+{
+	font-size: 2.5em;
+
+}
+
+h2
+{
+	border-bottom: 2px rgb(254,202,8) solid;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+.entete
+{
+	height: 100px;
+	margin-left: 20px;
+}
+
+.entete p
+{
+	font-size: 1.5em;
+}
+
+.prenom
+{
+	color: rgb(254,202,8);
+}
+
+.underline_dev
+{
+	border-bottom: 2px rgb(254,202,8) solid;
+}
+
+section
+{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+article
+{
+	margin: auto;
+	text-align: justify;
+	color: rgb(74,74,74);
+}
+
+article ul
+{
+	list-style: none;
+}
+
+article li::before
+{
+	content: "•"; 
+	color: rgb(254,202,8);
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+article h3
+{
+	text-transform: uppercase;
+}
+
+.formation
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formation div
+{
+	margin-right: 30px;
+}
+
+.date
+{
+	width: 300px;
+	
+}
+
+.recommandations
+{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+	margin-right: 60px;
+}
+
+
+aside
+{
+	background-color: #FDD835;
+	text-align: justify;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+
+.photo
+{
+	border-radius: 100px;
+	height: 100px;
+	text-align: center;
+	border: 3px rgb(254,202,8) solid;
+}
+
+.ico
+{
+	width: 20px;
+}
+
+aside h3
+{
+	text-align: center;
+	color: rgb(254,202,8);
+	background-color: rgb(64,64,64);
+}
+
+aside p
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	color: rgb(74,74,74);
+}
+
+
+.reco 
+{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
